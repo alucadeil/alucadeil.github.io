@@ -1,0 +1,144 @@
+.button {
+    margin: 5px 10px;
+  
+    display: block;
+    overflow: hidden;
+    outline: none;
+    
+    border: 1px solid #000000;
+    border-radius: 2px;   
+}
+
+#pageTitle {
+    text-align: center;
+}
+
+span {
+    font-size: 24px;
+}
+
+#formulaInput {
+    margin: 5px 10px;
+
+    display: block;
+    overflow: hidden;
+    outline: none;
+
+    border: 1px solid #000000;
+    border-radius: 2px;
+
+    font-size: 24px;
+    width: 580px;
+}
+
+#messageText {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: #977bad;
+    outline: none;
+}
+
+#questLink {
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    font-size: 28px;
+}
+
+#table {
+    text-align: center;
+    font-size: 28px;
+    color: grey;
+} 
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#building {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#questLink, #pageTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+#answer {
+    text-align: center;
+}
+
+#question {
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#formula {
+    margin: 5px auto;
+
+    display: block;
+    overflow: hidden;
+    outline: none;
+
+    color: #977bad;
+    border-radius: 2px;
+
+    font-size: 24px;
+    width: 580px;
+}
+
+#answer {
+    height: 100px;
+}
+
+#trueLabel, #falseLabel {
+    font-size: 24px;
+}
+
+#questSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.radio {
+	width: 24px;
+    height: 24px;
+}
+
+#score {
+    font-size: 150px;
+    color: #977bad;
+}
+
+#resultSection {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
