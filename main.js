@@ -95,8 +95,13 @@ function main() {
     for (valueSetNumber = 0; valueSetNumber < positiveResultValueSets.length - 1; valueSetNumber++) {
         pdnf += ')';
     }
-
-    resultElement.innerHTML = pdnf;
+    
+    if (pdnf == '')
+    {
+      messageText.innerHTML = "Нельзя построить СДНФ";
+    } else {
+    	resultElement.innerHTML = pdnf;
+    }
 
     return pdnf;
 }
